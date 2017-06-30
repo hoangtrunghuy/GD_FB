@@ -1,0 +1,211 @@
+
+/*TẠO BAO QUYANH*/
+.wrapper{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	padding: 15px 0;
+}
+.c-left{
+	width: 55%;
+	height: auto;
+	float: left;
+}
+.c-right{
+	width: 45%;
+	height: auto;
+	float: right;
+}
+
+
+
+/*PHẦN ĐẦU*/
+
+#header{
+	width: 100%;
+	height: 85px;
+	background-color: #3F5D9A;
+}
+#logo a {
+	color: #fff;
+    text-decoration: none;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+#login{
+
+}
+#login ul li{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+	color:#fff;
+}
+#login ul li ul li{
+	display: block;
+}
+#login ul li ul li input{
+	width: 150px;
+	padding: 3px;
+	margin: 5px 5px 5px 0px;
+	border: 1px solid #29487D;
+}
+#login ul li ul li a{
+	color:#9cb4d8;
+	text-decoration: none;
+}
+#login ul li ul li a:hover{
+	text-decoration: underline;
+}
+#login ul li button{
+	margin-top: 17px;
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px;
+}
+#login ul li button:hover{
+	background-color: #3F5D9A;
+}
+
+
+
+/*PHẦN THÂN*/
+
+#content{
+	width: 100%;
+	min-height: 670px;
+	background: url('../img/bgr.jpg');
+    background-repeat:repeat-x;
+    background-size: 3px 670px;
+}
+
+#content a{
+	color: #365899;
+}
+
+
+/*PHẦN THÂN BÊN TRÁI*/
+
+#content .c-left h2{
+	color: #0E385F;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+
+/*PHẦN THÂN BÊN PHẢI*/
+
+#content .c-right h1{
+	font-family: arial;
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+#content .c-right h3{
+	font-family: arial;
+    font-size: 20px;
+    margin-top: 12px;
+}
+#sigin {
+	margin-top: 20px;
+	width: 100%;
+}
+#sigin input[type="text"],#sigin input[type="password"]{
+	width: 95%;
+	padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    font-family: tahoma;
+    font-size: 18px;
+}
+#sigin input:first-child{
+	width: 43%;
+	float: left;
+}
+#sigin input:nth-child(2){
+	width: 43%;
+	float: right;
+}
+#sigin label{
+	font-size: 20px;
+}
+#sigin select{
+	padding: 5px;
+}
+#sigin input[type="radio"]{
+	margin-top: 15px;
+}
+#sigin input[type="submit"]{
+	padding: 6px 60px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #62A14F;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    margin: 20px 0px 35px;
+}
+#sigin input[type="submit"]:hover{
+	background-color: #74B560;
+}
+#sigin h5{
+	display: inline-block;
+    font-size: 13px;
+    padding: 5px;
+    color: #777;
+}
+#sigin+h4{
+	font-size: 18px;
+	color: #666;
+}
+
+
+/*PHẦN CUỐI*/
+
+#footer{
+	width: 100%;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	color: #737373;
+	padding: 0px 0px 10px;
+}
+#footer .wrapper{
+	padding: 5px 0px;
+}
+#nav1{
+    border-bottom: 1px solid #dddfe2;
+    padding: 0px 0px 15px;
+}
+#nav1 li{
+	display: inline-block;
+    margin-right: 5px;
+}
+#nav2{
+	margin-top: 
+}
+#nav2 li{
+	display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+#nav2 li ul li{
+	display: block;
+	padding: 10px 0px;
+	line-height: 2px;
+}
+#footer h4{
+	margin-top: 15px;
+}
+#footer a{
+	text-decoration: none;
+	color: #365899;
+}
